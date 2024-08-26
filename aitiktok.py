@@ -6,7 +6,7 @@ import pyautogui  # Para captura de pantalla
 import numpy as np  # Para la conversión de imagen
 
 # Establece la ruta de Tesseract si no está en PATH
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\vanes\AppData\Local\Programs\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\AppData\Local\Programs\Tesseract-OCR\tesseract'
 
 # Función para detectar texto en una imagen
 def detect_text(image):
